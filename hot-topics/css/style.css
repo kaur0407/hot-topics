@@ -1,0 +1,298 @@
+ body {
+	margin: 0px;
+	padding: 0px;
+    font-size: 0.75rem;
+    background-color: #D7ECFF;
+    text-align: left;
+    line-height: 1.4rem;
+}
+
+.logo img {
+    display: inline;
+	width: 150px;
+	height: 150px;
+	margin:0 auto;
+    max-width: 100%;
+}
+
+.masthead{
+	color:#000000;
+    height: 400px;
+    background-color: #9CACBA;
+    background-size: cover;
+    background-image: url(../img/masthead.jpg); 
+}
+
+.masthead p {
+    padding-top: 10px;
+    padding-left: 50px;
+    font-family: 'Jaldi', sans-serif;
+    color:#FFA539;
+    font-size: 1.75rem;
+    
+}
+
+.nav-link {
+	color: #FFF093;
+	font-size:1.375rem; 
+	font-family: 'Jaldi', sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#navbarNav {
+	margin-top: 80px;
+	margin-right: 300px;
+    margin: 0;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: block;
+    padding: 2em 2em;
+}
+
+nav ul li:hover {
+ 	background: #94ECFF;
+ }
+
+nav ul li a {
+    display: block;
+}
+
+header {
+ 	background-color:#000000;
+ 	height: 200px;
+    text-align: center;
+ 
+}
+
+h3 {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.3rem;
+}
+
+.content p {
+    font-family: 'Jaldi', sans-serif;
+    width: 90%;
+    font-size: 0.75rem;
+}
+
+.content img {
+    margin-bottom: 3%;
+    text-align: center;
+    max-width: 70%;
+}
+
+
+figure img {
+    max-width: 100%;
+}
+
+.card .wrapper {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.75rem;
+}
+
+
+figure {
+    margin: 0;
+    margin-top: 50px;
+}
+
+
+footer h3 {
+ 	text-align: center;
+ 	font-family: 'Noto Serif', serif;
+ 	font-size: 1.375rem;
+} 
+
+footer {
+	 background-color:#e8dede;
+	 height: 240px;
+}
+
+footer p {
+ 	padding-top: 10px;
+ 	text-align: center;
+ 	font-size: 16px;
+ 	font-family: 'Jaldi', sans-serif;
+}
+
+
+.footer-wrapper {
+	width: 100%;
+	height: auto;
+	min-height: 60px;
+	margin: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+.footer-social-icons {
+	width:100%;
+	height: auto;
+	margin:auto;
+}
+
+.footer-social-icons ul li{
+	display: inline-block;
+	margin-right: 2px;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+}
+
+
+.footer-social-icons ul li a{
+
+	display: block;
+	font-size: 1rem;
+	position: relative;
+	left:740px;	
+}
+
+
+@media screen and (min-width: 35rem) {
+    body {
+        line-height: 1.6rem;
+        font-size: 1rem;
+    }
+    
+    nav ul li {
+        display: inline-block;
+    }
+    
+    nav ul li a {
+        font-size: 1.75rem;
+    }
+    
+    .masthead p {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 2.125rem;
+    
+    }
+  
+    h3 {
+        font-size: 1.75rem;
+        font-family: 'Noto Serif', serif;
+    }
+    
+    .content p {
+        float: none;
+        font-family: 'Jaldi', sans-serif;
+        font-size: 	1.375rem;
+    }
+
+     figcaption img {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.3rem;
+    }
+    
+    figure {
+        width: 45%;
+        text-align: center;
+    }
+
+    figcaption{
+        font-family: 'Noto Serif', serif;
+        font-size: 1.75rem;
+    }
+   
+    @media screen and (min-width: 80rem) {
+        body {
+            font-size: 1.375rem;
+            line-height: 1.6rem;
+        }
+        
+        .masthead {
+            width: 100%;
+        }
+        
+        .masthead p {
+            font-family: 'Jaldi', sans-serif;
+            font-size: 2.375rem;
+        
+        }
+
+        .container {
+            padding: 0;
+            width: 100%;
+            background-color:#D7ECFF; 
+        }
+
+        .content {
+            display: flex;
+            margin: 0;
+        }    
+
+        figcaption {
+            font-family: 'Noto Serif', serif;
+            font-size: 1.375rem;
+        }
+
+        
+        h3 {
+            font-family: 'Noto Serif', serif;
+            font-size: 1.375rem;
+        }
+
+        .content img{
+            width: 100%;
+            margin-right: 0;
+            text-align: left;
+        }
+
+
+        header {
+            background-color:#000000;
+            height: 200px;
+            text-align: center;
+
+        }
+
+        .content p {
+            width: 60%;
+            font-family: 'Jaldi', sans-serif;
+            font-size: 1.375rem;
+            margin-left: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        nav ul li a {
+            font-size: 2.25rem;
+
+        }
+
+        header {
+            background-color:#000000;
+            height: 200px;
+            text-align: center;
+
+        }
+
+
+        
+        
+        
+
+
